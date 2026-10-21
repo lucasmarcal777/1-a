@@ -19,9 +19,10 @@ main{
 }
 #personagens{
     width: 100%;
-    height: 30vh;
+    height: auto;
     float: left;
     background: green;
+    padding-bottom: 3vh;
 }
 .personagem{
     width: 15%;
@@ -44,9 +45,34 @@ main{
 .personagem img:hover{
     filter: grayscale(0%);
 }
+#nomes-pers{
+    width: 100%;
+    height: 3vh;
+    float: left;
+    background:purple;
+    margin-top: 3vh;
+
+}
+#nomes-pers h2{
+    width: 15%;
+    height: 3vh;
+    float: left;
+    background: #fff;
+    margin-left: 4.16%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+    text-transform: uppercase;
+    
+    
+}
+
 #video{
     width: 100%;
     height: 50vh;
     float: left;
     background: red;
 }
+
+
+
